@@ -1,0 +1,245 @@
+
+.red {
+    background-color: #15CBED;
+    color: #FFFFFF;
+    padding: 20px 10% 90px;;
+
+  
+}
+
+.Navbar {
+    background-color: #15CBED;
+}
+
+.btn{
+    background-color: #FFFFFF;
+    color: #5E72E4;
+    border: 0px;
+    margin-right: 10px;
+    
+}
+.btn2{
+    background-color:#172B4D;
+    color: #FFFFFF;
+    border: 0px;
+    
+}
+.li {
+    color: ' #FFFFFF';
+
+}
+
+/* ---------------------------------------------------------------------------------------- */
+
+.dashboard {
+    
+    background-color: #15CBED;
+    margin: 0 !important;
+    color: #FFFFFF;
+    padding: 20px 10% 50px;
+    height: 700px;
+}
+.fix {
+    transform:skewY(-178deg);
+}
+
+.card {
+    width: 240px;
+    height: 215px;
+    border-radius: 7px;
+    background-color: #FEFDFA;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: '#172B4D';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.card2 {
+    width: 240px;
+    height: 245px;
+    border-radius: 5px;
+    background-color: #FEFDFA;
+    padding: 22px;
+    margin-bottom: 30px;
+    color: '#172B4D';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+.containerCard {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    
+}
+
+.circle1 {
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, #F54053, #F55B3B);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.circle2 {
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, #11C2EF, #1180EF);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.circle3 {
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, #2ECF95, #2DCEC1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.circle4 {
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, #FB7140, #FBA940);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    
+}
+
+.help {
+    border-color: tomato;
+    border-width: 10px;
+    background-color: tomato;
+}
+
+.dash {
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.containerCard2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.skew {
+    background-color:  #15CBED;
+    height: 500px;
+    transform:skewY(178deg);
+    margin-top: -50px;
+}
+
+/* ------------------------------------------------------------------------------- */
+
+.complete {
+    margin-top: 165px;
+    padding: 110px 20% 50px;
+    color: #FFFFFF;
+    background-color:  #172B4D;
+    height: 500px;
+}
+
+.isa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+/* ------------------------------------------------------------- */
+
+.cards {
+    background-color: #F8F9FE;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10% 50px;
+}
+
+.tarjetas {   
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.box1 {
+    border-radius: 6px;
+    background-color: #FFFFFF;
+    width: 340px;
+    height: 320px;
+    color: #172B4D;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+                   
+.awesome {
+    background-color: blue;
+    height: 00px;
+
+}
+
+.example {
+    background-color: yellow;
+    height: 300px;
+
+}
+
+.lovable {
+    background-color: green;
+    height: 300px;
+    
+}
+
+.badge {
+    background-color: #FEE6E0;
+    color: #FF8779;
+    margin: 0px 2px;
+}
+
+.sas {
+    display: flex;
+    font-size: 14px;
+}
+
+.badge2 {
+    background-color: #B0EED3;
+    color: #68B789;
+    margin: 0px 2px;
+}
+.badge3 {
+    background-color:#AAEDF9;
+    color: #17B4D3;
+    margin: 0px 2px;
+}
+
+
+
+    
