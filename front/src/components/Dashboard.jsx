@@ -13,7 +13,7 @@ const Dashboard = () => {
             <Row className={s.fix} >
 
             
-            <Col className="col-6" >
+            <Col col-xs-12 col-sm-12 col-md-6 col-lg-6 >
                 <div className={s.dash}>
 
                 <h1>Dashboard PRO React</h1>
@@ -33,7 +33,7 @@ const Dashboard = () => {
 
                 
             </Col>
-            <Col className="col-3">
+            <Col col-xs-12 col-sm-12 col-md-3 col-lg-3 >
                 <div className={s.containerCard2}>
                     <div className={s.card}>
                         <div className={s.circle1}>
@@ -53,9 +53,9 @@ const Dashboard = () => {
                     </div>
                 </div>
             </Col>
-            <Col className="col-3">
+            <Col col-xs-12 col-sm-12 col-md-3 col-lg-3 >
             <div className={s.containerCard} >
-                    <div className={s.card2}>
+                    <div className={s.card3}>
                         <div className={s.circle3}>
                             <FaHandPointer/>
                         </div>

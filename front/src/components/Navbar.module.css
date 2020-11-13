@@ -3,13 +3,20 @@
     background-color: #15CBED;
     color: #FFFFFF;
     padding: 20px 10% 90px;;
-
-  
 }
 
 .Navbar {
     background-color: #15CBED;
+    
 }
+
+@media (max-width: 400px) {
+    .Navbar {
+        color: #FFFFFF;
+        margin-bottom: -50px;
+    }
+}
+
 
 .btn{
     background-color: #FFFFFF;
@@ -39,8 +46,24 @@
     padding: 20px 10% 50px;
     height: 700px;
 }
+@media (max-width: 400px) {
+    .dashboard {
+        padding: 20px;
+        height: 1530px;
+    }
+}
+
+
 .fix {
     transform:skewY(-178deg);
+}
+@media (max-width: 400px) {
+    .fix {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0%;
+    }
 }
 
 .card {
@@ -55,6 +78,7 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+
 .card2 {
     width: 240px;
     height: 245px;
@@ -67,6 +91,44 @@
     flex-direction: column;
     justify-content: space-evenly;
 }
+@media (max-width: 400px) {
+    .card {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card2 {
+        width: 100%;
+        height: 205px;
+        
+    }
+}
+
+.card3 {
+    width: 240px;
+    height: 215px;
+    border-radius: 7px;
+    background-color: #FEFDFA;
+    padding: 20px;
+    margin-bottom: 30px;
+    color: '#172B4D';
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 400px) {
+    .card3 {
+        width: 100%;
+        height: 205px;
+        margin-top: -150px;
+        
+    }
+}
+
+
 
 
 .containerCard {
@@ -75,6 +137,12 @@
     flex-direction: column;
     justify-content: flex-end;
     
+}
+@media (max-width: 400px) {
+    .containerCard {
+        justify-content: center; 
+        align-items: center;
+    }
 }
 
 .circle1 {
@@ -132,12 +200,23 @@
     justify-content: center;
     align-items: flex-start;
 }
+@media (max-width: 400px) {
+    .dash {
+        align-items: center;
+    }
+}
 
 .containerCard2 {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
+}
+@media (max-width: 400px) {
+    .containerCard2 {
+        justify-content: center; 
+        align-items: center;
+    }
 }
 
 .skew {
@@ -147,6 +226,7 @@
     margin-top: -50px;
 }
 
+
 /* ------------------------------------------------------------------------------- */
 
 .complete {
@@ -155,6 +235,13 @@
     color: #FFFFFF;
     background-color:  #172B4D;
     height: 500px;
+}
+@media (max-width: 400px) {
+    .complete {
+        margin-top: -130px;
+        padding: 20px;
+        height: 1800px;
+    }
 }
 
 .isa {
@@ -166,7 +253,16 @@
     height: 200px;
     font-size: 20px;
     margin-top: 20px;
-    
+}
+@media (max-width: 400px) {
+    .isa {
+        margin-top: 5px;
+        height: 1600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
 }
 
 /* ------------------------------------------------------------- */
@@ -178,12 +274,23 @@
     justify-content: space-between;
     padding: 0px 10% 50px;
 }
+@media (max-width: 400px) {
+    .cards {
+        padding: 20px;
+      
+    }
+}
 
 .tarjetas {   
     margin-top: -100px;
     display: flex;
     justify-content: space-between;
 
+}
+@media (max-width: 400px) {
+    .tarjetas {
+      flex-direction: column;
+    }
 }
 
 .box1 {
@@ -197,6 +304,12 @@
     flex-direction: column;
     justify-content: space-evenly;
 
+}
+@media (max-width: 400px) {
+    .box1 {
+      margin-bottom: 30px;
+      height: 280px;
+    }
 }
 .badge {
     background-color: #FEE6E0;
@@ -229,11 +342,21 @@
     justify-content: space-between;
     padding: 0px 10% 50px;
 }
+@media (max-width: 400px) {
+    .awesome {
+      padding: 20px;
+    }
+}
 
 .features {
     display: flex;
     justify-content: space-between;
-
+}
+@media (max-width: 400px) {
+    .features {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
 }
 
 .badge4 {
@@ -260,18 +383,35 @@
     justify-content: space-evenly;
 }
 
+@media (max-width: 400px) {
+    .img {
+      width: 100%;
+      margin: 40px 0px;
+    }
+}
+
 /* ------------------------------------------------------------------ */
 
 .example {
     display: flex;
     justify-content: space-between;
-
+}
+@media (max-width: 400px) {
+    .example {
+      align-items: center;
+      flex-direction: column;
+    }
 }
 
 .lovable {
     display: flex;
     justify-content: space-between;
-    
+}
+@media (max-width: 400px) {
+    .lovable {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
 }
 
 .love {
@@ -297,5 +437,10 @@
     justify-content: center;
     text-align: center;
   
+}
+@media (max-width: 400px) {
+    .textico {
+       margin: 20px 0px;      
+    }
 }
 

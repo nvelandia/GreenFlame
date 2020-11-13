@@ -17,28 +17,23 @@ const Header = () => {
                 <Row>
                     <Col className="col-6">
                         
-  <Nav defaultActiveKey="/home" as="ul">
-                            <Nav.Item as="li">
-                                <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Dashboard</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item as="li">
-                                <Nav.Link  style={{color:' #FFFFFF'}}>Pricing</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item as="li">
-                                <Nav.Link  style={{color:' #FFFFFF'}}>Login</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item as="li">
-                                <Nav.Link  style={{color:' #FFFFFF'}}>Register</Nav.Link>
-                            </Nav.Item>
-                            <Nav.Item as="li">
-                                <Nav.Link  style={{color:' #FFFFFF'}}>Lock</Nav.Link>
-                            </Nav.Item>
-                        </Nav> 
+                        <Navbar  expand="lg" className={s.Navbar}>
+                            <Navbar.Toggle aria-controls="basic-navbar-nav"  />
+                            <Navbar.Collapse id="basic-navbar-nav">
+                                <Nav className="mr-auto">
+                                    <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Dashboard</Nav.Link>
+                                    <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Pricing</Nav.Link>
+                                    <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Login</Nav.Link>
+                                    <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Register</Nav.Link>
+                                    <Nav.Link href="/home" style={{color:' #FFFFFF'}}>Lock</Nav.Link>
+                                </Nav>
+                            </Navbar.Collapse>
+                        </Navbar>
                         
                     </Col>
                     <Col className="col-6">
                     <div class="d-flex justify-content-end">
-                        <div>
+                        <div class="d-none d-sm-none d-md-block">
                     <AiFillFacebook classname='justify-content-end' style={{color: '#FFFFFF'}}/>
                     <AiOutlineInstagram style={{color: '#FFFFFF', margin: '0px 10px'}}/>
                     <AiFillTwitterSquare style={{color: '#FFFFFF' }}/>

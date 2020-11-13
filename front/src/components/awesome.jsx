@@ -28,13 +28,13 @@ const Awesome = () => {
 
                         </div>
                         <div>
-                        <img src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
+                        <img className={s.img} src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
 
                         </div>
                     </div>
                     <div className={s.example}>
                         <div>
-                            <img src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
+                            <img className={s.img} src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
 
                         </div>
                         <div className={s.love}>                    
@@ -71,7 +71,7 @@ const Awesome = () => {
 
                         </div>
                         <div>
-                        <img src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
+                        <img className={s.img} src="https://i.postimg.cc/hPhG7Jg1/Untitled.png" alt=""/>
 
                         </div>
                     </div>

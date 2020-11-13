@@ -15,7 +15,7 @@ const Cause = () => {
         
             <Container fluid className={d.cause}>
                     <div className={d.be}>
-                        <h2>Do you love this awesome</h2>
+                        <h2 className={d.esco}>Do you love this awesome</h2>
                         <h2 style={{color:'#34CE8A'}}>Dashboard for Bootstrap 4, React and <br/> 
                             Reactstrap?
                         </h2>

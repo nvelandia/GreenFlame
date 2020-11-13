@@ -18,7 +18,7 @@ const Nucleo = () => {
             <Container fluid className={s.nucleo}>
                     <div className={s.icons}>
                         <h2>Nucleo Icons</h2> 
-                        <p>The official package contains over 21.000 icons 
+                        <p className={s.textico}>The official package contains over 21.000 icons 
                             which are looking great in <br/> combination 
                             with our Design System. Make sure you check all 
                             of them and use <br/> those that you like the 
