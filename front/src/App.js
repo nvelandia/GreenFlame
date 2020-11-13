@@ -4,6 +4,8 @@ import  Header from './components/Navbar.jsx';
 import Dashboard from './components/Dashboard.jsx';
 import Complete from './components/complete'
 import Cards from './components/Cards'
+import Awesome from './components/awesome';
+import Nucleo from './components/Nucleo'
 
 export default function App() {
   return (
@@ -13,6 +15,8 @@ export default function App() {
       <Dashboard/>
       <Complete/>
       <Cards/>
+      <Awesome/>
+      <Nucleo/>
        
     </div>
   );

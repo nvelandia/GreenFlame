@@ -173,7 +173,6 @@
 
 .cards {
     background-color: #F8F9FE;
-    height: 1000px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -199,25 +198,6 @@
     justify-content: space-evenly;
 
 }
-                   
-.awesome {
-    background-color: blue;
-    height: 00px;
-
-}
-
-.example {
-    background-color: yellow;
-    height: 300px;
-
-}
-
-.lovable {
-    background-color: green;
-    height: 300px;
-    
-}
-
 .badge {
     background-color: #FEE6E0;
     color: #FF8779;
@@ -240,6 +220,82 @@
     margin: 0px 2px;
 }
 
+/* ---------------------------------------------------------- */
 
+.awesome {
+    background-color: #F8F9FE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px 10% 50px;
+}
 
+.features {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.badge4 {
+    background-color: #B0EED3;
+    color: #68B789;
+    border-radius: 50%;
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.fi {
+    margin-left: -3px;
     
+}
+
+.spa {
+    margin-left: 15px;
+    
+}
+
+.kit {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+/* ------------------------------------------------------------------ */
+
+.example {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.lovable {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.love {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* ------------------------------------------------------------------------------ */
+
+.nucleo {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 10%;
+
+}
+

@@ -6,6 +6,7 @@ import { GiCastle } from "react-icons/gi";
 import { GoCheck } from "react-icons/go";
 
 
+
 const Cards = () => {
     return (
        
@@ -52,28 +53,6 @@ const Cards = () => {
                                     <Badge pill className={s.badge}>CUSTOMIZE</Badge>
                                     </div>
                                 </div>
-                    </div>
-                    <div className={s.awesome}>
-                        <div>
-                            <div>
-                                <h2>Awesome features</h2>
-                                <p>The kit comes with three pre-built pages to help you get started <br/>
-                                    faster. You can change the text and images and you're good go.
-                                </p>
-                            </div>
-                            <div>
-
-
-                            </div>
-
-                        </div>
-                        <div>
-
-                        </div>
-                    </div>
-                    <div className={s.example}>
-                    </div>
-                    <div className={s.lovable}>
                     </div>
             </Container>
      
