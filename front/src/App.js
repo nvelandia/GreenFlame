@@ -6,6 +6,8 @@ import Complete from './components/complete'
 import Cards from './components/Cards'
 import Awesome from './components/awesome';
 import Nucleo from './components/Nucleo'
+import Cause from './components/cause';
+import Footer from './components/footer';
 
 export default function App() {
   return (
@@ -17,6 +19,8 @@ export default function App() {
       <Cards/>
       <Awesome/>
       <Nucleo/>
+      <Cause/>
+      <Footer/>
        
     </div>
   );

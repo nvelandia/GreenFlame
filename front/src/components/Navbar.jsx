@@ -39,17 +39,10 @@ const Header = () => {
                     <Col className="col-6">
                     <div class="d-flex justify-content-end">
                         <div>
-
-                        
-
-
                     <AiFillFacebook classname='justify-content-end' style={{color: '#FFFFFF'}}/>
                     <AiOutlineInstagram style={{color: '#FFFFFF', margin: '0px 10px'}}/>
                     <AiFillTwitterSquare style={{color: '#FFFFFF' }}/>
-                    <AiFillGithub style={{color: '#FFFFFF', margin: '0px 10px'}}/>
-                    
-                        
-
+                    <AiFillGithub style={{color: '#FFFFFF', margin: '0px 30px 0px 10px'}}/>
                         <Button className={s.btn}><FaShoppingCart/> Purchase Now</Button>
                         </div>
                     </div>

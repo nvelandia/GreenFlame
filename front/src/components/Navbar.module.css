@@ -288,14 +288,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 50px 10% 50px;
 }
 
 .icons {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin: 50px 10%;
-
+    text-align: center;
+  
 }
 
