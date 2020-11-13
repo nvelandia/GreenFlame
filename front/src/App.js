@@ -20,7 +20,7 @@ export default function App() {
       <Awesome/>
       <Nucleo/>
       <Cause/>
-      <Footer/>
+      <Footer/> 
        
     </div>
   );
