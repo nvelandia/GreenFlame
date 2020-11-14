@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import d from './logos.module.css';
 import { FaShoppingBasket } from "react-icons/fa";
-import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 import { IoLogoNodejs } from "react-icons/io";
 import { BsFillBootstrapFill } from "react-icons/bs";
 import { FaReact, FaAngular } from "react-icons/fa";

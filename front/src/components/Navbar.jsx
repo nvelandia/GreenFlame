@@ -1,4 +1,3 @@
-import react from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './Navbar.module.css';
 import { AiFillGithub,

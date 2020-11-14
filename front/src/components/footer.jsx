@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import d from './logos.module.css';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+import { Container, Nav } from 'react-bootstrap';
 
 const Footer = () => {
     return (

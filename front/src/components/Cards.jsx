@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './Navbar.module.css';
-import { Container, Row, Col, Button, Navbar, Badge } from 'react-bootstrap';
+import { Container, Badge } from 'react-bootstrap';
 import { IoIosPlanet } from "react-icons/io";
 import { GiCastle } from "react-icons/gi";
 import { GoCheck } from "react-icons/go";

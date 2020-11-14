@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './Navbar.module.css';
-import { Container, Row, Col, Button, Navbar, Badge } from 'react-bootstrap';
+import { Container, Badge } from 'react-bootstrap';
 import { AiFillHtml5 } from "react-icons/ai";
 import { RiEmotionHappyFill } from "react-icons/ri";
 import { BsGearFill } from "react-icons/bs";

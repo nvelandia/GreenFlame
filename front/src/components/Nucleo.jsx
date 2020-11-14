@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './Navbar.module.css';
 import d from './logos.module.css';
-import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap';
+import { Container, Button } from 'react-bootstrap';
 
 import { FaRegCalendarAlt, FaBriefcase, FaBell, FaCreditCard } from "react-icons/fa";
 import { RiCamera3Fill, RiBarChartFill, RiReactjsFill, RiShoppingBag3Fill,

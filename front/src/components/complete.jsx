@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import s from './Navbar.module.css';
-import { Container, Row, Col, Button, Navbar, Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 
 const Complete = () => {
     return (
