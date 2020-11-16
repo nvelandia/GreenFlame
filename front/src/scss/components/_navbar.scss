@@ -1,0 +1,26 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.header {
+    background-color: $celeste;
+    color: $blanco;
+    padding: 20px 10% 90px;;
+}
+
+@media (max-width: 400px) {
+    .Navbar {
+        margin-bottom: -50px;
+    }
+}
+
+.btn{
+    @include botones(#FFFFFF, #5E72E4);
+    margin-right: 10px;   
+}
+
+.btn2{
+    background-color:#172B4D;
+    color: #FFFFFF;
+    border: 0px;
+    
+}

@@ -1,0 +1,84 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.awesome {
+    background-color: $gris;
+    @include fc;
+    justify-content: space-between;
+    padding: 0px 10% 50px;
+}
+
+@media (max-width: 400px) {
+    .awesome {
+      padding: 20px;
+    }
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+    .features {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+}
+
+.badge4 {
+    background-color: #B0EED3;
+    color: #68B789;
+    border-radius: 50%;
+    width: 20px;
+    margin-bottom: 10px;
+}
+
+.fi {
+    margin-left: -3px;
+    
+}
+
+.spa {
+    margin-left: 15px;
+    
+}
+
+.kit {
+    @include fc;
+    justify-content: space-evenly;
+}
+
+@media (max-width: 400px) {
+    .img {
+      width: 100%;
+      margin: 40px 0px;
+    }
+}
+
+.example {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 400px) {
+    .example {
+      align-items: center;
+      flex-direction: column;
+    }
+}
+
+.lovable {
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 400px) {
+    .lovable {
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+}
+
+.love {
+    @include fc;
+    justify-content: center;
+}

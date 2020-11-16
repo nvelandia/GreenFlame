@@ -1,0 +1,65 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+
+.cards {
+    background-color: $gris;
+    @include fc;
+    justify-content: space-between;
+    padding: 0px 10% 50px;
+}
+
+@media (max-width: 400px) {
+    .cards {
+        padding: 20px;   
+    }
+}
+
+.tarjetas {   
+    margin-top: -100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 400px) {
+    .tarjetas {
+      flex-direction: column;
+    }
+}
+
+.box1 {
+    border-radius: 6px;
+    background-color: $blanco;
+    width: 340px;
+    height: 320px;
+    color: $azul;
+    padding: 30px;
+    @include fc;
+    justify-content: space-evenly;
+
+}
+
+@media (max-width: 400px) {
+    .box1 {
+      margin-bottom: 30px;
+      height: 280px;
+    }
+}
+
+.badge1 {
+    @include badge(#FEE6E0, #FF8779);
+}
+
+.sas {
+    display: flex;
+    font-size: 14px;
+}
+
+.badge2 {
+    @include badge(#B0EED3, #68B789);
+}
+
+.badge3 {
+    @include badge(#AAEDF9, #17B4D3);
+}

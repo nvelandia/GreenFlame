@@ -1,0 +1,131 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.dashboard {
+
+    background-color: $celeste;
+    margin: 0 !important;
+    color: $blanco;
+    padding: 20px 10% 50px;
+    height: 700px;
+    
+}
+@media (max-width: 400px) {
+    .dashboard {
+        padding: 20px;
+        height: 1530px;
+    }
+}
+
+.fix {
+    transform:skewY(-178deg);
+}
+
+@media (max-width: 400px) {
+    .fix {
+      flex-direction: column;
+      align-items: center;
+      padding: 0px;
+      margin: 0%;
+    }
+}
+
+.card {
+    @include card;
+    height: 215px;
+}
+
+.card2 {
+    @include card;
+    height: 245px;
+}
+
+.card3 {
+    @include card;
+    height: 215px;
+}
+
+@media (max-width: 400px) {
+    .card {
+        width: 100%;
+        height: 180px;
+    }
+}
+
+@media (max-width: 400px) {
+    .card2 {
+        width: 100%;
+        height: 205px;
+        
+    }
+}
+
+@media (max-width: 400px) {
+    .card3 {
+        width: 100%;
+        height: 205px;
+        margin-top: -150px;
+        
+    }
+}
+
+.containerCard {
+    height: 600px;
+    @include fc;
+    justify-content: flex-end;
+    
+}
+@media (max-width: 400px) {
+    .containerCard {
+        justify-content: center; 
+        align-items: center;
+    }
+}
+
+.circle1 {
+    @include circle(#F54053, #F55B3B);
+}
+
+.circle2 {
+    @include circle(#11C2EF, #1180EF);
+}
+
+.circle3 {
+    @include circle( #2ECF95, #2DCEC1);
+}
+
+.circle4 {
+    @include circle( #FB7140, #FBA940);
+}
+
+.dash {
+    height: 580px;
+    @include fc;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+@media (max-width: 400px) {
+    .dash {
+        align-items: center;
+    }
+}
+
+.containerCard2 {
+    @include fc;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+@media (max-width: 400px) {
+    .containerCard2 {
+        justify-content: center; 
+        align-items: center;
+    }
+}
+
+.skew {
+    background-color: $celeste;
+    height: 500px;
+    transform:skewY(178deg);
+    margin-top: -50px;
+}

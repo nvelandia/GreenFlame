@@ -1,0 +1,38 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+
+.complete {
+    margin-top: 165px;
+    padding: 110px 20% 50px;
+    color: $blanco;
+    background-color: $azul;
+    height: 500px;
+}
+
+@media (max-width: 400px) {
+    .complete {
+        margin-top: -130px;
+        padding: 20px;
+        height: 1800px;
+    }
+}
+
+.isa {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    height: 200px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 400px) {
+    .isa {
+        margin-top: 5px;
+        height: 1600px;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+}

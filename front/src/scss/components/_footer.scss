@@ -1,0 +1,30 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.foo {
+    background-color: $gris;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10%;
+}
+
+@media (max-width: 400px) {
+    .foo {
+        flex-direction: column;
+        align-items: center;   
+    }
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-end;
+    color: #8C99AC;
+    margin-top: -12px;
+}
+
+@media (max-width: 400px) {
+    .footer {
+        justify-content: space-between;
+        font-size: 11px;
+    }
+}

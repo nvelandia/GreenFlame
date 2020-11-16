@@ -1,0 +1,63 @@
+@import "./variables";
+
+@mixin botones ($bc, $c ) {
+    background-color: $bc;
+    color: $c;
+    border: 0px;    
+}
+
+@mixin card {
+
+    width: 240px;
+    border-radius: 7px;
+    background-color: #FEFDFA;
+    padding: 22px;
+    margin-bottom: 30px;
+    color: $azul;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+@mixin circle ($c1, $c2){
+
+    width: 45px;
+    height: 45px;
+    background-image: linear-gradient(to right, $c1, $c2);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $blanco;
+    
+}
+
+@mixin help {
+ 
+    border-color: tomato;
+    border-width: 10px;
+    background-color: tomato;
+    
+}
+
+@mixin fc {
+    display: flex;
+    flex-direction: column;  
+}
+
+@mixin badge ($bc, $c) {
+    background-color: $bc;
+    color: $c;
+    margin: 0px 2px;
+
+}
+
+@mixin logos {
+    background-color: $blanco;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 20px #d6d5d5    
+}

@@ -1,0 +1,120 @@
+@import "../utils/variables";
+@import "../utils/mixins";
+
+.nucleo {
+    background-color: $blanco;
+    @include fc;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 10% 50px;
+}
+
+.icons {
+    @include fc;
+    justify-content: center;
+    text-align: center;
+  
+}
+@media (max-width: 400px) {
+    .textico {
+       margin: 20px 0px;      
+    }
+}
+
+.one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.two {
+    @include fc;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.three {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.four {
+    @include fc;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.five {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.six {
+    @include fc;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.seven {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.eigth {
+    @include fc;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.nine {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.log {
+    display: flex;
+    justify-content: space-around;
+    height: 350px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px) {
+    .log {
+    display: none;
+    }
+}
+
+.cir {
+    @include logos;
+    width: 70px;
+    height: 70px;
+    color: #5E72E4;
+    font-size: 30px;
+}
+
+.bt {
+    @include botones($celeste, $blanco);
+    margin-right: 10px;
+}
+
+.bt2 {
+    @include botones($azul, $blanco);
+}
+
+@media (max-width: 400px) {
+    .esco {
+        display: none;
+    }
+}
